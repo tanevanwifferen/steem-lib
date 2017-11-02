@@ -19,7 +19,7 @@ var meta_json = {
 var plink = 'xxx-yyy-zzzzzz';
 var category = 'travel'
 
-var tx = remote.creatTransaction(MY_ACCOUNT);
+var tx = remote.createTransaction(MY_ACCOUNT);
 
 tx.comment({
     parent_author: "",
